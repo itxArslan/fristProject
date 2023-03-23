@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+
+    <!-- Custom Css Link -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- Toastify Link -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="form">
+        <h1>ADMIN LOGIN</h1>
+        <form>
+          <input type="text" name="FullName" placeholder="FullName" id="name" />
+          <img src="assets/user7.png" alt="user" />
+          <input type="text" name="Email" placeholder="Email" id="mail" />
+          <img src="assets/email'.svg" alt="email" />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            id="pass"
+          />
+          <img src="assets/lock.png" alt="password" />
+          <a href="#">Lost Password</a>
+        </form>
+        <button onclick="submit()" id="button">Login</button>
+      </div>
+    </main>
+
+    <!-- Toastify Link -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
+    <!-- Custom Javascript Link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
